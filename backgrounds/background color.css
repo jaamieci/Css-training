@@ -1,0 +1,15 @@
+h1 {
+    background-color: green;
+  }
+
+  /* Opacity / Transparency
+The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0.
+The lower value, the more transparent: */
+div {
+    opacity: 0.3;
+  }
+
+  /* Transparency using RGBA */
+div {
+    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+}

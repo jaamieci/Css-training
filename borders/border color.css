@@ -1,0 +1,36 @@
+/* CSS Border Color
+The border-color property is used to set the color of the four borders. */
+
+/* The color can be set by:
+
+name - specify a color name, like "red"
+HEX - specify a HEX value, like "#ff0000"
+RGB - specify a RGB value, like "rgb(255,0,0)"
+HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+transparent */
+
+/* Note: If border-color is not set, it inherits the color of the element. */
+
+p.one {
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-color: green;
+  }
+  
+  p.three {
+    border-style: dotted;
+    border-color: blue;
+  }
+
+  /* The border-color property can have from one to four values
+  (for the top border, right border, bottom border, and the left border). */
+  p.one {
+    border-style: solid;
+    border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+  }
+
+  
